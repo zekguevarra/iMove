@@ -129,7 +129,16 @@ text-align: center;
   background-color: #001412 !important;
   border-radius: 5px;
 }
-
+@media(max-width:1000px){
+  .nav-item.laststart{
+    display: none !important;
+  }
+}
+@media only screen and (min-width:1000px){
+  .nav-item.first-start{
+    display: none !important;
+  }
+}
 //marquee section
 :root{
     --marquee-width:90vw;

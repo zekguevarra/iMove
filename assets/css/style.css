@@ -133,6 +133,16 @@ nav {
   border-radius: 5px;
 }
 
+@media (max-width: 1000px) {
+  .nav-item.laststart {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .nav-item.first-start {
+    display: none !important;
+  }
+}
 :root {
   --marquee-width:90vw;
   --marquee-height:15vh;
